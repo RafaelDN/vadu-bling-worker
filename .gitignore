@@ -1,6 +1,3 @@
-# específicos do projeto
-vadu-bling.md
-
 # Logs
 
 logs
@@ -168,4 +165,3 @@ dist
 .env*
 !.env.example
 .wrangler/
-
