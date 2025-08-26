@@ -1,5 +1,6 @@
 # VA Importação
 Integração entre VADU e Bling usando a ferramenta de automação Make.
+
 *Atualizado em 25/08/2025*
 
 ## Cenários
@@ -35,3 +36,7 @@ O Bling possui uma situação específica onde, na atualização do pedido, é n
 Com isso foi feito um Worker no Cloudflare (que nada mais é que um endpoint público que vai executar um processo http).
 
 O cloudflare tem um plano free bem generoso, o que não deve adicionar custos adicionais no processo. 
+
+O código fonte utilizado para o Cloudflare Worker está em: https://github.com/RafaelDN/vadu-bling-worker
+
+O Worker está publicado na conta: https://dash.cloudflare.com/337e4657ecc6e2e49e1cb885dee31c51/workers/services/view/vadu-bling-worker/production/metrics
